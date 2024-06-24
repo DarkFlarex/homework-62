@@ -1,13 +1,15 @@
 import {NavLink} from "react-router-dom";
-import './Toolbar.css'
 
 const Toolbar = () => {
     return (
-        <nav className="navbar navbar-dark bg-dark mb-5">
+        <nav className="navbar navbar-dark bg-dark">
             <div className="container-sm d-flex align-items-center justify-content-sm-between">
                 <div className="logo">
                     <NavLink to="/" className="navbar-brand w-100 h-10">
-                        <img src={'https://freepngdesign.com/content/uploads/images/t_porsche-white-logo-7020.png'} height="150" className="logo-img" alt="Porsche Logo"/>
+                        <img src={'https://freepngdesign.com/content/uploads/images/t_porsche-white-logo-7020.png'}
+                             height="150"
+                             className="logo-img"
+                             alt="Porsche Logo"/>
                     </NavLink>
                 </div>
                 <ul className="navbar-nav d-flex flex-row gap-3 flex-nowrap">

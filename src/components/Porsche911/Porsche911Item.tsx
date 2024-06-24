@@ -12,7 +12,7 @@ const Porsche911Item: React.FC<Props> = ({ porsche }) => {
                     <img src={porsche.img} alt={porsche.name} className="card-img-top" />
                     <div className="card-body">
                         <h4>{porsche.name}</h4>
-                        <span>{porsche.price}</span>
+                        <span>{porsche.price}: €</span>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,20 @@
+.home {
+    position: absolute;
+    background-image: url('https://files.porsche.com/filestore/image/multimedia/none/rd-2024-homepage-banner-ww-sos992gts-kw22/normal/508723fb-1c15-11ef-812b-005056bbdc38;sK;twebp/porsche-normal.webp');
+    background-size: cover;
+    width: 100%;
+    height: 78%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -48px;
+}
+.home-info{
+    color: white;
+}
+
+.home-info:hover{
+    color: red;
+}
+
+
