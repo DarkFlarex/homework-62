@@ -1,17 +1,17 @@
 import React from 'react';
-import { Porsche } from '../../types';
+import { PorscheCay } from '../../types';
 import PorscheCayenneItem from "./PorscheCayenneItem";
 
 
 interface Props {
-    porsche: Porsche[];
+    PorscheCay: PorscheCay[];
 }
 
-const PorscheCayenne: React.FC<Props> = ({ porsche }) => {
+const PorscheCayenne: React.FC<Props> = ({ PorscheCay }) => {
     return (
         <div className="row row-cols-1 row-cols-md-3 g-4">
-            {porsche.map((car) => (
-                <PorscheCayenneItem key={car.id} porsche={car} />
+            {PorscheCay.map((car) => (
+                <PorscheCayenneItem key={car.id} PorscheCay={car} />
             ))}
         </div>
     );

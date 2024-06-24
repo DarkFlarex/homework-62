@@ -1,20 +1,22 @@
 import {NavLink} from "react-router-dom";
-
+import './Toolbar.css'
 
 const Toolbar = () => {
     return (
-        <nav className="navbar-light m-5">
-            <div className="container-fluid">
-                <NavLink to="/" className="navbar-brand">
-                    PORSCHE
-                </NavLink>
+        <nav className="navbar navbar-dark bg-dark mb-5">
+            <div className="container-sm d-flex align-items-center justify-content-sm-between">
+                <div className="logo">
+                    <NavLink to="/" className="navbar-brand w-100 h-10">
+                        <img src={'https://freepngdesign.com/content/uploads/images/t_porsche-white-logo-7020.png'} height="150" className="logo-img" alt="Porsche Logo"/>
+                    </NavLink>
+                </div>
                 <ul className="navbar-nav d-flex flex-row gap-3 flex-nowrap">
                     <li className="nav-item">
                         <NavLink
                             to="Poresche911"
                             className="nav-link"
                         >
-                            911 Modal
+                            Modal: 911
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -22,7 +24,15 @@ const Toolbar = () => {
                             to="PorscheCayenne"
                             className="nav-link"
                         >
-                            Cayenne Modal
+                            Modal: Cayenne
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink
+                            to="NewsRoom"
+                            className="nav-link"
+                        >
+                            NewsRoom
                         </NavLink>
                     </li>
                 </ul>

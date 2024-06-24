@@ -1,7 +1,7 @@
-import { Porsche } from "../../types";
+import {PropsPorsche911} from "../../types";
 
 interface Props {
-    porsche: Porsche;
+    porsche: PropsPorsche911;
 }
 
 const Porsche911Item: React.FC<Props> = ({ porsche }) => {

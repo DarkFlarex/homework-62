@@ -1,19 +1,19 @@
 import React from 'react';
-import {Porsche} from "../../types";
+import {PorscheCay} from "../../types";
 
 interface Props {
-    porsche:Porsche;
+    PorscheCay:PorscheCay;
 }
 
-const PorscheCayenneItem1:React.FC<Props> = ({porsche}) => {
+const PorscheCayenneItem1:React.FC<Props> = ({PorscheCay}) => {
     return (
         <>
             <div className="col">
                 <div className="card">
-                    <img src={porsche.img} alt={porsche.name} className="card-img-top"/>
+                    <img src={PorscheCay.img} alt={PorscheCay.name} className="card-img-top"/>
                     <div className="card-body">
-                        <h4>{porsche.name}</h4>
-                        <span>{porsche.price}</span>
+                        <h4>{PorscheCay.name}</h4>
+                        <span>{PorscheCay.price}</span>
                     </div>
                 </div>
             </div>
